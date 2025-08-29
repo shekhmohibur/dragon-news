@@ -1,8 +1,14 @@
+import FindUsOn from "../FindUsOn";
+import QZone from "../QZone";
+import SocialLogin from "../SocialLogin";
+
 const RightNav = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <SocialLogin></SocialLogin>
+            <FindUsOn></FindUsOn>
+            <QZone></QZone>
+        </>
     );
 };
 

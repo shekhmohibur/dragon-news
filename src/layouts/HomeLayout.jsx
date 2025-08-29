@@ -12,7 +12,7 @@ const HomeLayout = () => {
                 <LatestNews></LatestNews>
                 <NavBar></NavBar>
             </header>
-            <main className="grid grid-cols-12">
+            <main className="grid grid-cols-12 gap-2">
                 <aside className="col-span-3">
                     <LeftNav></LeftNav>
                 </aside>
