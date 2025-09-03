@@ -29,7 +29,7 @@ import Register from "../pages/Register";
             element: <AuthLayout></AuthLayout>,
             children:[
                 {
-                    path:'/auth/logion',
+                    path:'/auth/login',
                     element:<Login></Login>
                 },
                 {
