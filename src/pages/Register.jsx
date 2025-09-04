@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Register = () => {
     return (
         <div className="min-h-screen flex justify-center items-center">
