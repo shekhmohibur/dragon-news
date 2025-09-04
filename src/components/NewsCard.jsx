@@ -1,4 +1,5 @@
 import { FaEye } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const NewsCard = (props = {}) => {
     const {news} = props || {};
     return (
@@ -50,7 +51,7 @@ const NewsCard = (props = {}) => {
 
         {/* Read More */}
         <div className="mt-2">
-          <button className="text-orange-600 hover:underline text-sm">Read More</button>
+          <Link to={`/news/${news._id}`} className="text-orange-600 hover:underline text-sm">Read More</Link>
         </div>
       </div>
     </div>
